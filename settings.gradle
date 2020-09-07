@@ -1,0 +1,5 @@
+rootProject.name = 'playground-in-gradle'
+
+include 'docker-sample-v1'
+include 'docker-sample-v2'
+
