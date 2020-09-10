@@ -1,4 +1,4 @@
-package kr.gracelove.modern.sec1.fucntinalinterface;
+package kr.gracelove.modern.fucntinalinterface;
 
 /**
  * @author : Eunmo Hong

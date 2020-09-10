@@ -1,4 +1,4 @@
-package kr.gracelove.modern.sec1.fucntinalinterface;
+package kr.gracelove.modern.fucntinalinterface;
 
 import java.util.function.Function;
 
