@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package kr.gracelove.board;
+
+service Board {
+  rpc addArticle(Article) returns (ArticleId);
+  rpc getArticle(ArticleId) returns (Article);
+}
+
+message Article{
+  int64 id = 1;
+  string title = 2;
+  string body = 3;
+}
+
+message ArticleId {
+  int64 id = 1;
+}
