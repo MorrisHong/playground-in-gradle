@@ -16,7 +16,6 @@ public class BoardImpl extends BoardGrpc.BoardImplBase{
 
 	@Override
 	public void addArticle(BoardOuterClass.Article request, StreamObserver<BoardOuterClass.ArticleId> responseObserver) {
-		request.
 	}
 
 	@Override
